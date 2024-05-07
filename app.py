@@ -3,6 +3,8 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
+nltk.download('punkt')
+
 from nltk.stem.porter import PorterStemmer
 
 st.set_page_config(page_title='Spam SMS Detector - Aman',layout='wide', initial_sidebar_state='expanded')
