@@ -1,6 +1,6 @@
 # Spam SMS Detector 🔎
 
-![ML](/banner_img.png)
+![ML](/Spam-SMS-Classifier.png)
 
 ![Dataset](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![NLTK](https://img.shields.io/badge/Library-sklearn-orange.svg)
 
