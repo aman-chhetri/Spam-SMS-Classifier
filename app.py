@@ -26,9 +26,9 @@ st.sidebar.markdown("<h1 style='text-align: center;'>Spam SMS Classifier </h1>",
 
 col1, col2, col3, col4 = st.sidebar.columns([1, 2, 2, 1])
 with col2:
-    st.image('sms.png', width=90)
+    st.image('assets/sms.png', width=90)
 with col3:
-    st.image('analyzer.png', width=90)
+    st.image('assets/analyzer.png', width=90)
 
 st.sidebar.caption(
     '**This is a simple machine learning web application which classify the given messages as Spam or Ham (Not Spam) built using NLP - Natural Language Processing.**')
@@ -101,9 +101,9 @@ if st.button('Detect'):
     result = model.predict(vector_input)[0]
     # 4. Display
     if result == 1:
-        st.error("Gotcha! 😲 This is a SPAM message.")
+        st.error("Gotcha! 😲 This is a SPAM Message.")
     else:
-        st.success("Great! 😀 This is NOT a spam message.")
+        st.success("Great! 😀 This is NOT a Spam Message.")
 
 
 st.markdown(
